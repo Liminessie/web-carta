@@ -1,6 +1,6 @@
 async function cargarCarta() {
     try {
-        const response = await fetch('https://raw.githubusercontent.com/Liminessie/cartaxml/main/carta.xml');
+        const response = await fetch('https://raw.githubusercontent.com/Liminessie/web-carta/main/carta.xml');
         
         if (!response.ok) {
             throw new Error(`Error al cargar el XML: ${response.status}`);

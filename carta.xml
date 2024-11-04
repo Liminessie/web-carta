@@ -41,7 +41,7 @@
         </plat>
         <categoria>Postres</categoria>
         <plat>
-            <img>./images/concha</img>
+            <img>./images/concha.jpeg</img>
             <nom>Concha</nom>
             <descripcio>Pan dulce tradicional cubierto de una costra de azúcar y almendra.</descripcio>
             <preu>5,50€</preu>
