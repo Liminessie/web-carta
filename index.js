@@ -11,13 +11,13 @@ async function cargarCarta() {
         const xmlDoc = parser.parseFromString(xmlText, "application/xml");
 
         const menuContainer = document.querySelector(".menu-container");
-        menuContainer.innerHTML = ''; // Limpiar el contenido del contenedor
+        menuContainer.innerHTML = ''; 
 
-        // Obtener todos los grupos de platillos en el XML
+        // Getting all the "grup"'s
         const grupos = xmlDoc.getElementsByTagName("grup");
         
         Array.from(grupos).forEach(grup => {
-            let currentCategory = ""; // Variable para almacenar la categoría actual
+            let currentCategory = ""; // Categoría
 
             Array.from(grup.childNodes).forEach(node => {
                 if (node.nodeName === "categoria") {
@@ -32,7 +32,7 @@ async function cargarCarta() {
                     const descripcion = node.getElementsByTagName("descripcio")[0]?.textContent || '';
                     const precio = node.getElementsByTagName("preu")[0]?.textContent || '';
 
-                    // Crear el HTML para el platillo
+                    // Creating HTML version
                     const platilloHTML = `
                         <div class="menu-item">
                             <img src="${imagen}" alt="${nombre}">
@@ -44,7 +44,7 @@ async function cargarCarta() {
                         </div>
                     `;
                     
-                    // Insertar el platillo en el contenedor
+                    // Inserting in the container
                     menuContainer.insertAdjacentHTML('beforeend', platilloHTML);
                 }
             });

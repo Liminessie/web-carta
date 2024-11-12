@@ -58,5 +58,26 @@
             <descripcio>Pan dulce, suave y esponjoso, hecho con maíz fresco.</descripcio>
             <preu>7,50€</preu>
         </plat>
+
+        <categoria>Cosas dulces!!</categoria>
+        <plat>
+            <img>./images/concha.jpeg</img>
+            <nom>Concha</nom>
+            <descripcio>Pan dulce tradicional cubierto de una costra de azúcar y almendra.</descripcio>
+            <preu>5,50€</preu>
+        </plat>
+        <plat>
+            <img>./images/pan-de-muerto.jpeg</img>
+            <nom>Pan de Muerto</nom>
+            <descripcio>Pan tradicional con sabor a naranja, espolvoreado de azúcar.</descripcio>
+            <preu>5,50€</preu>
+        </plat>
+        <plat>
+            <img>./images/pan-de-elote.jpg</img>
+            <nom>Pan de Elote</nom>
+            <descripcio>Pan dulce, suave y esponjoso, hecho con maíz fresco.</descripcio>
+            <preu>7,50€</preu>
+        </plat>
+        
     </grup>
 </carta>
