@@ -59,7 +59,7 @@
             <preu>7,50€</preu>
         </plat>
 
-        <categoria>Cosas dulces!!</categoria>
+        <!-- <categoria>Categoría de prueba!</categoria>
         <plat>
             <img>./images/concha.jpeg</img>
             <nom>Concha</nom>
@@ -77,7 +77,7 @@
             <nom>Pan de Elote</nom>
             <descripcio>Pan dulce, suave y esponjoso, hecho con maíz fresco.</descripcio>
             <preu>7,50€</preu>
-        </plat>
+        </plat> -->
         
     </grup>
 </carta>
